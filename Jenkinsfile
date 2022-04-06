@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git clone'){
             steps{
-                git 'https://github.com/bratzelk/spring-boot-hello-world.git'
+                git 'https://github.com/phpshubham/Simplest-Spring-Boot-Hello-World.git'
             }
         }
         stage('Maven Test'){
